@@ -5,14 +5,16 @@ public class Tester {
 	//variabile
 	String nume;
 	int ratePerHour;
+	int age;
 	
 	
 	//constructor default
 	//public Tester() {}
 	
-	public Tester(String nume, int ratePerHour) {
+	public Tester(String nume, int ratePerHour, int age) {
 		setNume(nume);
 		setRatePerHour(ratePerHour);
+		setAge(age);
 		}
 	//metode getter & setter
 	
@@ -40,6 +42,14 @@ public class Tester {
 	
 	public void setRatePerHour(int ratePerHour) {
 		this.ratePerHour = ratePerHour;
+	}
+
+	public int getAge() {
+		return age;
+	}
+
+	public void setAge(int age) {
+		this.age = age;
 	}
 	
 	

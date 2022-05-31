@@ -31,11 +31,13 @@ public class MethodExample {
 		MethodExample room2 = new MethodExample();
 		System.out.println(room2.calculateArea(3, 3));
 		
+		System.out.println("-------------");
+		
 		MethodExample room3 = new MethodExample();
 		System.out.println(room3.calculateArea(4, 4));
 		
 		int total = room.calculateArea(4, 2) + room2.calculateArea(3, 3) + room3.calculateArea(4, 4);
-		System.out.println(total);
+		System.out.println("Total mp: "+ total);
 		
 		
 		System.out.println(calculateTotal(room.calculateArea(4, 2), room2.calculateArea(3, 3), room3.calculateArea(4, 4), 70));
@@ -43,12 +45,13 @@ public class MethodExample {
 	
 	
 	public int calculateArea(int lenght, int width) {
+		System.out.println("Aria camerei este:" + lenght * width);
 		return lenght * width;
 	}
 	
-	public void calculateArea(int lenght, int width) {
-		System.out.println("Aria camerei este: " + lenght * width);
-	}
+	//public void calculateArea2(int lenght, int width) {
+	//	System.out.println("Aria camerei este: " + lenght * width);
+	//}
 	
 	public static int calculateTotal(int...rooms) { //varargs --> argumente variabile --> int..rooms --> int[] rooms
 		int result = 0;
