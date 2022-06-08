@@ -8,11 +8,10 @@ public class RewriteCode {
 		int vanzari = 3500;
 		if (vanzari>2500) {
 			comision = vanzari*5/100;
-			System.out.println("Comisionul tau este: "+ comision);
 		} else {
 			comision = 0;
-			System.out.println("Comisionul tau este: "+ comision);
 		}
+		System.out.println("Comisionul tau este: "+ comision);
 
 	}
 
