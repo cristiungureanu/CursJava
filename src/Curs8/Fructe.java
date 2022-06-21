@@ -11,7 +11,7 @@ public class Fructe {
 	}
 	
 	public void printDetails() {
-		System.out.println(nume + " are" + calorii + " calorii");
+		System.out.println(nume + " are " + calorii + " calorii");
 	}
 
 }

@@ -24,6 +24,7 @@ public class ArrayFructe {
 		objMar = new Fructe("Ionatan", 300);
 		
 		objMar.printDetails();
+		System.out.println("=======");
 		fruct[1].printDetails();
 		fruct[2] = new Fructe("Para", 250);
 		fruct[3] = new Fructe("Cireasa", 80);
