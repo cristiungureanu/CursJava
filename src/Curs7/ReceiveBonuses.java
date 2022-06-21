@@ -9,12 +9,16 @@ public class ReceiveBonuses {
 	int Month;
 	
 	
+	public static void main(String[] args) {
+		
+		System.out.println("Te rog introdu ce an esti: ");
+		Scanner scan = new Scanner(System.in);
+		int YearsOfExperience = scan.nextInt();
+		int Sales = scan.nextInt();
+		int Month = scan.nextInt();
+		
 	
-	System.out.println("Te rog introdu ce an esti: ");
-	Scanner scan = new Scanner(System.in);
-	int YearsOfExperience = scan.nextInt();
 	
-	
-	
+}
 	
 }
