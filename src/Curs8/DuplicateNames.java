@@ -1,12 +1,12 @@
 package Curs8;
 
-public class DuplicateNumbers {
+public class DuplicateNames {
 
 	static String[] myStringArray = {"Maria", "Bob","Ion", "George", "Oana", "Bogdan", "Oana", "Ion"};
 	
 	public static void main(String[] args) {
 
-		DuplicateNumbers obj = new DuplicateNumbers();
+		DuplicateNames obj = new DuplicateNames();
 		obj.PrintDuplicates(myStringArray);	
 		
 	}
@@ -15,7 +15,7 @@ public class DuplicateNumbers {
 				
 		for(int i=0;i < myStringArray.length; i++) {
 			for(int j=i+1; j<myStringArray.length;j++) {
-				if (myStringArray[i] == str[j]) {
+				if (myStringArray[i].equals(str[j])) {
 					System.out.println("Nume duplicat " + str[j]);
 			}
 		}

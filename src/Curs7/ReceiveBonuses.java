@@ -71,7 +71,9 @@ public class ReceiveBonuses {
 				bonus = 1200;
 				System.out.println("Angajatul are 3 ani vechime si valoarea vanzarillor este > 10000 =>primeste un bonus de: " + bonus);
 			}
-				
+			
+		default:
+			System.out.println("Nu se poate calcula bonusul");
 			}
 		
 			
