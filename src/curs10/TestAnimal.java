@@ -32,6 +32,8 @@ public class TestAnimal {
 		leu.metodaAnimal();
 		feedAnimal(leu);
 		
+		System.out.println("---------------------------");
+		
 		leu = new Deer();
 		leu.makeSound();
 		((Deer)leu).eatGrass();
@@ -43,6 +45,7 @@ public class TestAnimal {
 		simba.metodaAnimal();*/
 			
 	}
+	
 	
 	public static void feedAnimal(Animal obiect) {
 		
