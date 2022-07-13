@@ -1,4 +1,4 @@
-package curs10;
+okpackage curs10;
 
 public class TestAnimal {
 
