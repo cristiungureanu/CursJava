@@ -12,15 +12,15 @@ public class TestPropertiesFile {
 		propFile.writePropertiesFiles();
 		propFile.readPropertiesFile("user");
 		propFile.readPropertiesFile("email");
-		propFile.readPropertiesFile("country");
+		propFile.readPropertiesFile("country7");
 		
 		
 		System.out.println("-----------------");
-		propFile.updatePropertiesFile("country", "UK");
-		propFile.readPropertiesFile("country");
+		//propFile.updatePropertiesFile("country", "UK");
+		//propFile.readPropertiesFile("country");
 		
-		System.out.println("-----------------");
-		propFile.deleteFromPropertiesFile("email");
+		//System.out.println("-----------------");
+		//propFile.deleteFromPropertiesFile("email");
 	}
 
 }
