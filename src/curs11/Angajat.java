@@ -2,7 +2,7 @@ package curs11;
 
 public interface Angajat {
 
-	public static final String salariu = "100";
+	public static final String salariu = "300";
 
 	void setName(String name);
 	String getName();
@@ -10,7 +10,8 @@ public interface Angajat {
 	void setEmail(String email);
 	String getEmail();
 
-	//void setCeva();
+	default void setCeva() {
+	}
 	
 	default void printNumeDepartament() {
 		System.out.println("QA");}

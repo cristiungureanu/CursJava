@@ -27,10 +27,13 @@ public class Mobile extends Product{
 		this.tva = tva;
 	}
 
+
 	@Override
 	public int calculatePrice() {
-		
-		return tva + buyingPrice;
+		// TODO Auto-generated method stub
+		return buyingPrice + tva;
 	}
+
+	
 
 }
