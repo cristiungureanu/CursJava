@@ -18,7 +18,7 @@ public class TestTextFileProcessor {
 		
 		System.out.println("---------------");
 		obj.readFile();
-		obj.deleteFile();
+		//obj.deleteFile();
 	}
 
 }
