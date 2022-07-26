@@ -50,7 +50,7 @@ public class ArrayListExample {
 		for(String nume : list) {
 			System.out.println(list.indexOf(nume) + ": " + nume);
 		}
-		
+		System.out.println("----------------");
 		System.out.println(list.contains("Ion"));
 	}
 
