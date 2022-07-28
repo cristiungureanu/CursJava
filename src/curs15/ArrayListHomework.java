@@ -54,6 +54,13 @@ public class ArrayListHomework {
 					System.out.println(nume1);
 				}*/
 		
+		ArrayList<String> list3 = new ArrayList<>();
+		for(String element : list1) {
+		    list3.add(list2.contains(element) ? "yes" : "no") ;
+		}
+		System.out.println(list3);
+		
+		
 		System.out.println("----------------");
 		for(int i = 0; i<list2.size();i++) {
 			if(list1.contains(list2.get(i))) {

@@ -19,7 +19,9 @@ public class FindDuplicatesInArray {
 		}
 		
 		System.out.println("------------------------");
+		
 		Set<String>duplicate = findDuplicates(myStringArray);
+		
 		System.out.println(Arrays.toString(myStringArray));
 		for(String nume : duplicate) {
 			System.out.println("Nume duplicat gasit: " + nume);
