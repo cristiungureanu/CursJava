@@ -41,6 +41,7 @@ public class MapCatalog {
 		Scanner scan = new Scanner(System.in);
 		try {
 			name = scan.nextLine();
+			name = name.substring(0, 1).toUpperCase() + name.substring(1).toLowerCase();
 		} catch (Exception e) {
 			e.printStackTrace();
 		}
